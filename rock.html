@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<audio id="winSound" src="sound/win.mp3"></audio>
+<audio id="loseSound" src="sound/lose.mp3"></audio>
+<audio id="tieSound" src="sound/tie.mp3"></audio>
+
+<div class="game-box">
+<div class="title-bar">
+    <span>🎮 mini_game.exe</span>
+</div>
+
+<h1>Rock Paper Scissors</h1>
+
+<div class="scoreboard">
+    <div>Player: <span id="playerScore">0</span></div>
+    <div>Computer: <span id="computerScore">0</span></div>
+</div>
+
+<div class="buttons">
+    <button onclick="play('rock')">
+        <img src="images/rock.png" alt="rock">
+    </button>
+
+    <button onclick="play('paper')">
+        <img src="images/paper.png" alt="paper">
+    </button>
+
+    <button onclick="play('scissors')">
+        <img src="images/scissors.png" alt="scissors">
+    </button>
+</div>
+
+<h2 id="status">Choose your weapon!</h2>
+<p id="timer">Time left: 7s</p>
+
+<button onclick="resetGame()">Play Again</button>
+
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>

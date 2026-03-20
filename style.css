@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+/* The “computer screen” */
+.game-box {
+    background: #f5f5f5;
+    border: 6px solid #555;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+
+    box-shadow: 
+        0 0 0 4px black,
+        8px 8px 0px black;
+
+    border-radius: 10px;
+}
+
+.title-bar {
+    background: #444;
+    padding: 8px;
+    margin: -30px -30px 20px -30px;
+    font-size: 15px;
+}
+
+h1 {
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.buttons img {
+    width: 60px;
+    image-rendering: pixelated;
+    height: 100px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#timer {
+    color: gray;
+}
