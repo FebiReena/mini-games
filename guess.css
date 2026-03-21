@@ -150,6 +150,10 @@ button:active {
     overflow-y: auto;
 }
 
+.actions button:last-child {
+    background: #7068BD;
+}
+
 
 /* 📱 Mobile */
 @media (max-width: 500px) {

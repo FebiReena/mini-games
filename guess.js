@@ -76,6 +76,23 @@ function submitGuess() {
     currentInput = "";
     updateInput();
 }
+function resetGame() {
+    playClickSound();
+
+    // new random number
+    secretNumber = Math.floor(Math.random() * 100) + 1;
+
+    // reset input
+    currentInput = "";
+    updateInput();
+
+    // reset display
+    document.getElementById("display").innerText = "?";
+
+    // clear history
+    history = [];
+    updateHistory();
+}
 document.getElementById("display").innerText = "?";
 
 function updateHistory() {
