@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="xo.css">
+</head>
+<body>
+
+<div class="game-box">
+
+    <div class="title-bar">🎮 xo_game.exe</div>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="scoreboard">
+        <div>You: <span id="playerScore">0</span></div>
+        <div>Computer: <span id="computerScore">0</span></div>
+    </div>
+
+    <div class="board" id="board"></div>
+
+    <h2 id="status">Your Turn</h2>
+
+</div>
+<div id="popup" class="popup hidden">
+    <div class="popup-box">
+        <h2 id="popupText"></h2>
+        <button onclick="restartMatch()">Play Again</button>
+    </div>
+</div>
+
+<audio id="winSound" src="sound/video-game.wav"></audio>
+<audio id="loseSound" src="sound/losinghorn.mp3"></audio>
+<audio id="tieSound" src="sound/tie.mp3"></audio>
+<audio id="clickSound" src="sound/click.wav"></audio>
+
+<script src="xo.js"></script>
+
+</body>
+</html>

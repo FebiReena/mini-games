@@ -60,7 +60,6 @@ h1 {
     z-index: 2;
     text-align: center;
     font-size: 12px;
-
     text-shadow: 2px 2px 0px black;
 }
 
@@ -79,4 +78,17 @@ h1 {
     position: absolute;
     inset: 0;
     z-index: 1;
+}
+
+/*XO*/
+.xo-card {
+    background-image: url("images/xo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.xo-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
 }
