@@ -21,7 +21,7 @@ A collection of simple and fun browser-based mini games built using HTML, CSS, a
 - JavaScript  
 
 📸 Preview
-(Add a screenshot here later)
+
 
 💡 Future Improvements
 - Add more games  
