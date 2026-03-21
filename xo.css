@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow-x: hidden;
     
 }
 
@@ -43,11 +44,25 @@ body {
     font-size: 30px;
     cursor: pointer;
     transition: 0.15s;
+
+    background: #7068BD;
+    color: black;
+
+    border: 2px solid black;
+
+    box-shadow: 3px 3px 0px black;
+    cursor: pointer;
 }
+
+.cell:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 0px black;
+}
+
 
 .cell:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 0 10px #7068BD;
+    box-shadow: 0 0 10px #A7C7E7;
 }
 
 /*pop-up*/
@@ -79,4 +94,35 @@ body {
     padding: 10px;
     font-family: "Pixelify Sans";
     cursor: pointer;
+}
+
+
+/* 📱 Mobile */
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        transform: scale(0.95);
+    }
+
+    .game-box {
+        width: 90%;
+    }
+
+    .history-panel {
+        width: 90%;
+    }
+}
+
+/* 📲 Tablet */
+@media (min-width: 501px) and (max-width: 900px) {
+    .container {
+        transform: scale(1.1);
+    }
+}
+
+/* 💻 Laptop */
+@media (min-width: 901px) {
+    .container {
+        transform: scale(1.3);
+    }
 }

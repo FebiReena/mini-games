@@ -7,6 +7,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: "Pixelify Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 /* The “computer screen” */
@@ -86,4 +87,35 @@ button {
 
 #timer {
     color: gray;
+}
+
+
+/* 📱 Mobile */
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        transform: scale(0.95);
+    }
+
+    .game-box {
+        width: 90%;
+    }
+
+    .history-panel {
+        width: 90%;
+    }
+}
+
+/* 📲 Tablet */
+@media (min-width: 501px) and (max-width: 900px) {
+    .container {
+        transform: scale(1.1);
+    }
+}
+
+/* 💻 Laptop */
+@media (min-width: 901px) {
+    .container {
+        transform: scale(1.3);
+    }
 }

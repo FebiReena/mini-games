@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- GAME -->
+    <div class="game-box">
+
+        <div class="title-bar">🎮 guess.exe</div>
+
+        <h1>Guess The Number</h1>
+
+        <div class="display" id="display">?</div>
+
+        <div id="inputBox">Your Guess:</div>
+
+        <div class="keypad" id="keypad"></div>
+
+        <div class="actions">
+            <button onclick="submitGuess()">Guess</button>
+            <button onclick="clearInput()">Clear</button>
+        </div>
+
+
+    </div>
+
+    <!-- HISTORY SIDE PANEL -->
+    <div class="history-panel">
+        <h3>Logs</h3>
+        <div id="history"></div>
+    </div>
+
+</div>
+
+<!-- Sounds -->
+<audio id="clickSound" src="sound/click.wav"></audio>
+<audio id="winSound" src="sound/video-game.wav"></audio>
+
+<script src="guess.js"></script>
+
+</body>
+</html>
