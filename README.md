@@ -3,7 +3,8 @@
 A collection of simple and fun browser-based mini games built using HTML, CSS, and JavaScript.
 
 🚀 Live Demo
-👉 [https://yourusername.github.io/mini-games/](https://febireena.github.io/mini-games/)
+
+👉 [Open Mini Games Hub](https://febireena.github.io/mini-games/)
 
 🕹️ Games Included
 - Rock Paper Scissors ✊📄✂️  
