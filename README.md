@@ -7,8 +7,10 @@ A collection of simple and fun browser-based mini games built using HTML, CSS, a
 👉 [Open Mini Games Hub](https://febireena.github.io/mini-games/)
 
 🕹️ Games Included
-- Rock Paper Scissors ✊📄✂️  
-- More coming soon...
+- Rock Paper Scissors ✊📄✂️
+- Tic Tac Toe ❌⭕
+- Guess the Number 🔢
+- More games coming soon...
 
 ✨ Features
 - Pixel-style UI 🎨  
