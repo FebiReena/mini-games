@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Game</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="memory.css">
+</head>
+<body>
+
+<div class="game-box">
+
+    <div class="title-bar">🎮 memory.exe</div>
+
+    <h1>Memory Game</h1>
+
+    <div class="grid" id="grid"></div>
+
+    <button onclick="restartGame()">Restart</button>
+
+</div>
+
+<!-- POPUP -->
+<div id="popup" class="popup hidden">
+    <div class="popup-box">
+        <h2>You Won! 🎉</h2>
+        <button onclick="restartGame()">Play Again</button>
+    </div>
+</div>
+
+<!-- Sounds -->
+<audio id="clickSound" src="sound/click.wav"></audio>
+<audio id="winSound" src="sound/video-game.wav"></audio>
+
+<script src="memory.js"></script>
+
+</body>
+</html>
