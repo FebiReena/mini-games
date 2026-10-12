@@ -10,6 +10,7 @@ Games Included
 - Rock Paper Scissors ✊📄✂️
 - Tic Tac Toe ❌⭕
 - Guess the Number 🔢
+- Memory Match Two 🐶
 - More games coming soon...
 
 Features
